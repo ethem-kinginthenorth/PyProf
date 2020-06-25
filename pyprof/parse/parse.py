@@ -23,10 +23,10 @@ import os
 import argparse
 from tqdm import tqdm
 
-from .db import DB
-from .kernel import Kernel
-from .nvvp import NVVP
-from .nsight import Nsight
+from db import DB
+from kernel import Kernel
+from nvvp import NVVP
+from nsight import Nsight
 
 
 def parseArgs():

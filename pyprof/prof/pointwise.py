@@ -17,8 +17,8 @@
 
 import numpy as np
 from collections import OrderedDict
-from .utility import Utility
-from .base import OperatorLayerBase
+from utility import Utility
+from base import OperatorLayerBase
 
 
 class Pointwise(OperatorLayerBase):

@@ -16,9 +16,9 @@
 # limitations under the License.
 
 from collections import OrderedDict
-from .tc import TC_Whitelist
-from .utility import Utility
-from .base import OperatorLayerBase
+from tc import TC_Whitelist
+from utility import Utility
+from base import OperatorLayerBase
 
 
 class Conv(OperatorLayerBase):
