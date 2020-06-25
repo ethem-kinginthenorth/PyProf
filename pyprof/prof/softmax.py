@@ -16,8 +16,8 @@
 # limitations under the License.
 
 from collections import OrderedDict
-from .utility import Utility
-from .base import OperatorLayerBase
+from utility import Utility
+from base import OperatorLayerBase
 
 
 class Softmax(OperatorLayerBase):

@@ -16,9 +16,9 @@
 # limitations under the License.
 
 from collections import OrderedDict
-from .utility import Utility
+from utility import Utility
 import numpy as np
-from .base import OperatorLayerBase
+from base import OperatorLayerBase
 
 
 class Cat(OperatorLayerBase):
