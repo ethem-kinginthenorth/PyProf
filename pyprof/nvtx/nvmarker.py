@@ -121,7 +121,7 @@ def traceMarker():
 
     d = {}
     d['traceMarker'] = get_trace_marker()
-    d['funcStack'] = get_func_stack()
+    #d['funcStack'] = get_func_stack()
     return str(d)
 
 
